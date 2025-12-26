@@ -38785,7 +38785,7 @@
 			(uuid "489853ad-8d72-4c7b-9087-92ea67fe09e6")
 		)
 		(embedded_fonts no)
-		(model "/Users/rahimmalik/School/CMRC/Libraries/CPT-2212-3TH/adafruit.step"
+		(model "/Users/rahimmalik/School/CMRC/Libraries/AdafruitBuzzer/AdafruitBuzzer.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40855,6 +40855,42 @@
 		)
 	)
 	(zone
+		(net 5)
+		(net_name "/PIEZO")
+		(layer "B.Cu")
+		(uuid "801c3c67-17c4-4353-978c-bbdfeccb66db")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 88.283667 127.01) (xy 88.283667 126.61) (xy 87.072235 126.103251) (xy 86.599 126.81) (xy 87.072235 127.516749)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 88.283667 127.01) (xy 88.283667 126.61) (xy 87.072235 126.103251) (xy 86.599 126.81) (xy 87.072235 127.516749)
+			)
+		)
+	)
+	(zone
 		(net 11)
 		(net_name "/IMU_SDA")
 		(layer "B.Cu")
@@ -42127,45 +42163,6 @@
 				(xy 80.900181 114.976121) (xy 80.913298 114.971531) (xy 81.174443 114.896296) (xy 81.18799 114.893204)
 				(xy 81.455916 114.847682) (xy 81.469711 114.846128) (xy 81.713481 114.832438) (xy 81.744529 114.830695)
 				(xy 81.751481 114.8305) (xy 81.813892 114.8305) (xy 147.886108 114.8305) (xy 147.948519 114.8305)
-			)
-		)
-	)
-	(zone
-		(net 5)
-		(net_name "/PIEZO")
-		(layer "B.Cu")
-		(uuid "bf8ba45e-5539-4716-836a-eb14090d0910")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 88.283667 127.01) (xy 88.283667 126.61) (xy 87.072235 126.103251) (xy 86.599 126.81) (xy 87.072235 127.516749)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 87.081113 126.106964) (xy 88.276482 126.606994) (xy 88.282792 126.613348) (xy 88.283667 126.617788)
-				(xy 88.283667 127.002211) (xy 88.28024 127.010484) (xy 88.276482 127.013005) (xy 87.081115 127.513034)
-				(xy 87.07216 127.513065) (xy 87.06688 127.508751) (xy 86.603358 126.816509) (xy 86.601604 126.807729)
-				(xy 86.603359 126.80349) (xy 86.730677 126.613348) (xy 87.06688 126.111247) (xy 87.074329 126.106282)
 			)
 		)
 	)
