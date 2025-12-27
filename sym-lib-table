@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AdafruitBuzzer")(type "KiCad")(uri "${KIPRJMOD}/libraries/AdafruitBuzzer/AdafruitBuzzer.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Capacitors")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Other/SL_Capacitors.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Resistors")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Other/SL_Resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Pin_Headers")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Pin_Headers/SL_Pin_Headers.kicad_sym")(options "")(descr ""))
+  (lib (name "SL_Screw_Terminal")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Screw_Terminals/SL_Screw_Terminal.kicad_sym")(options "")(descr ""))
+  (lib (name "Teensy4.1")(type "KiCad")(uri "${KIPRJMOD}/libraries/Teensy4.1/Teensy4.1.kicad_sym")(options "")(descr ""))
+)
