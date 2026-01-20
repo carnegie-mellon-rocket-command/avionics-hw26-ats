@@ -3,4 +3,5 @@
   (lib (name "AdafruitBuzzer")(type "KiCad")(uri "${KIPRJMOD}/libraries/AdafruitBuzzer/AdafruitBuzzer.pretty")(options "")(descr ""))
   (lib (name "SL_Pin_Headers")(type "KiCad")(uri "${KIPRJMOD}/libraries/SL_Pin_Headers/SL_Pin_Headers.pretty")(options "")(descr ""))
   (lib (name "Teensy4.1")(type "KiCad")(uri "${KIPRJMOD}/libraries/Teensy4.1/Teensy4.1.pretty")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/libraries/Logo.pretty")(options "")(descr ""))
 )
